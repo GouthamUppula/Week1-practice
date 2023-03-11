@@ -1,0 +1,19 @@
+Begin
+ numeric basicSalary,HRA,DA,grossSalary
+ print("Enter basicSalary");
+ input basicSalary
+if(basicSalary<=10000){
+ HRA=(67*basicSalary)/100;
+ DA=(78*basicSalary)/100;
+ }
+else if(>20000){
+HRA=(69*basicSalary)/100;
+DA=(79*basicSalary)/100;
+ } 
+ else{
+ HRA=(75*basicSalary)/100;
+ DA=(85*basicSalary)/100;
+ grossSalary=HRA+DA+basicSalary
+print("grossSalary");
+ }
+End

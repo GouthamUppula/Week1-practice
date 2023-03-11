@@ -1,0 +1,9 @@
+Begin
+ age
+print("Enter the age to check either eligible for vote or not")
+input age
+if(age>=18)
+print("eligible for vote")
+else
+print("not eligible for vote")
+End

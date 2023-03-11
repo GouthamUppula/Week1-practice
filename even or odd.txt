@@ -1,0 +1,9 @@
+Begin 
+ Numeric num
+print("enter the number to check it is even or odd")
+input num
+if(num%2==0)
+  print("it is even number")
+else
+  print("it is odd number")
+End
